@@ -2,17 +2,16 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\student;
 use Illuminate\Http\Request;
 
-class StudentsController extends Controller
+class EmployeesController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        $students = student::all();
+        $test = 'test';
     }
 
     /**
